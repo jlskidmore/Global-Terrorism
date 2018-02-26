@@ -1,0 +1,3796 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(31.791700, -7.092600);
+		var myOptions = {
+			zoom: 3,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(18.456800, -69.951200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Santo Domingo, Dominican Republic",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(19.432600, -99.133200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Mexico city, Mexico",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(15.478600, 120.599700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Unknown, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.983800, 23.728200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Athens, Greece",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.580400, 130.396400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Fukouka, Japan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.005100, -89.176300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Cairo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.891200, -56.187200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Montevideo, Uruguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.076600, -89.412500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Madison, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.073000, -89.386700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Madison, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.468500, -89.744300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baraboo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.740000, -104.992300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.890500, 12.494200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hijacking"
+ +"1970.0"
+ +"Rome, Italy",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.331700, -83.047900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Detroit, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.399700, -66.050000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Rio Piedras, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516700, 13.400000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East Berlin, East Germany (GDR)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.610100, -73.948000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.380000, -65.830900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Rio Grande, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.116700, -88.239300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.891200, -56.187200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Montevideo, Uruguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.610600, -122.317200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.655300, -122.303500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.728100, -74.077800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Jersey City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.624400, -90.532900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Guatemala City, Guatemala",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.677300, 121.044300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Quezon City, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(10.503000, -66.917300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Caracas, Venezuela",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470300, -96.413900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.606500, -88.650400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"West Point, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.606500, -88.650400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"West Point, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.728200, -73.794900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.242000, -82.615200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Norwalk, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516700, 13.400000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"East Berlin, East Germany (GDR)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.480000, -96.413000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.466300, -96.414100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(25.720900, -80.277900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Coral Gables, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(15.675100, 120.331600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unknown"
+ +"1970.0"
+ +"Bamban, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.748800, -105.022100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.511800, -122.675600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Portland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.005100, -89.176300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Cairo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.084200, -81.514100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Akron, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.740000, -104.992300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.608800, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.460800, -66.264900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Dorado, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.399700, -66.050000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Rio Piedras, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.442000, -66.026300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Carolina, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.350500, -71.105400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.838400, -88.743200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Whitewater, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.751200, -73.903600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "3"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.678200, -73.944200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "3"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.078600, -84.179400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Batavia, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.139100, 11.580200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Munich, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.263400, -83.665300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ypsilanti, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.139100, 11.580200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Munich, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(44.044800, -123.072600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Eugene, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.777100, -122.419600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"San Francisco, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.775500, -122.403700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"San Francisco, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.334800, -77.431700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Buckeystown, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.493900, -90.132500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Covington, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.655300, -122.303500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.504400, -81.690500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Cleveland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.100800, -122.255000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Vallejo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.763300, -72.674100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Hartford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.807000, -73.960300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.655300, -122.303500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.111400, 8.680600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Frankfurt, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.368700, 8.539200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Zurich, Switzerland",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.733600, -74.002700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.678200, -73.944200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.740000, -104.992300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.455200, -76.475800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ithaca, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.287100, -89.724400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Prairie du Sac, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470300, -96.413900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470300, -96.413900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470300, -96.413900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470300, -96.413900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"South Sioux City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(32.222200, -110.925800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Tucson, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.740000, -104.992300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.102000, -88.227200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.007600, -105.265900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Boulder, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.532500, 35.100200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Hebron, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.596100, 120.978700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Manila, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.890500, 12.494200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Rome, Italy",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.007600, -105.265900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Boulder, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.833500, -104.821800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Colorado Springs, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.007600, -105.265900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boulder, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.015000, -105.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Boulder, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.504400, -81.690500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Cleveland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.751000, -104.930500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.655300, -122.303500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.019300, -122.134100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Martinez, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.735200, -104.986100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.736900, -104.981100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Denver, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.466200, -66.106700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"San Juan, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.624400, -90.532900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Guatemala City, Guatemala",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.331700, -83.047900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Detroit, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.331700, -83.047900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Detroit, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.836500, -86.254700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ashville, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.181900, -73.191300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Bridgeport, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.084300, -106.619800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Albuquerque, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.538900, -76.348500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Bel Air, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.139100, 11.580200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Munich, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.563100, -76.078100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Cambridge, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721900, -122.478200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"San Francisco, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-23.550700, -46.633500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Sao Paulo, Brazil",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.102400, -88.227200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712800, -74.007100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712800, -74.005900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.884200, -87.632400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Chicago, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.884200, -87.632400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Chicago, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(44.260300, -88.397500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Appleton, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(44.268600, -88.428400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Appleton, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.198100, 29.919200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Alexandria, Egypt",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.609300, -74.028700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.766700, -118.192400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hijacking"
+ +"1970.0"
+ +"Long Beach, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.466200, -66.106700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"San Juan, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.784000, -108.505800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Billings, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.105200, -117.294100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"San Bernardino, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047700, -118.204700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.226800, -84.453300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Lockland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.511800, -122.675600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Portland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.331700, -83.047900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Detroit, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.897700, -77.036500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Washington, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.538200, -81.377400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Orlando, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(15.153000, 120.591900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unknown"
+ +"1970.0"
+ +"Angeles, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.456800, -69.951200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Santo Domingo, Dominican Republic",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-27.583200, -56.683300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Ituzaingo, Argentina",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.508900, -81.611700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Cleveland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.937800, -122.342700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Richmond, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.777100, -122.419600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"San Francisco, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.603700, -58.381500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Buenos Aires, Argentina",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.888600, 35.495500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Beirut, Lebanon",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.851200, -90.864400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Biggsville, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(32.357500, -84.956200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Fort Benning, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.624400, -90.532900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Guatemala City, Guatemala",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.580400, 130.396400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hijacking"
+ +"1970.0"
+ +"Fukouka, Japan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.890400, -77.032000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Washington, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.655300, -122.303500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.737500, -84.483800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East Lansing, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.455200, -76.475800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ithaca, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(29.717400, -95.401800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Houston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(15.185900, 120.541900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unknown"
+ +"1970.0"
+ +"Mabalacat City, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(53.344100, -6.267500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Dublin, Ireland",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(46.732000, -117.162600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Pullman, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-30.034100, -51.217800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Porto Alegre, Brazil",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.603700, -58.381500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Buenos Aires, Argentina",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(29.717400, -95.401800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Houston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.973100, -95.236500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Lawrence, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.023700, -94.735500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baxter Springs, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047700, -118.204700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.624400, -90.150600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East St. Louis, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(32.715700, -117.161700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"San Diego, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.455200, -76.475800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ithaca, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.949600, -95.344400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Freeport, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.087900, -94.521200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.103000, -94.583100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.103000, -94.583100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.783800, -118.114100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Long Beach, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.245300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.245300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.061300, -118.203600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047700, -118.204700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.103000, -94.583100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.103000, -94.583100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.099900, -94.579800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.728200, -73.794900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.954300, -95.255800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Lawrence, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.245300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.871900, -122.258500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.871900, -122.258500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.041800, -87.906800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Milwaukee, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.102400, -88.227200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.062700, -117.163200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Redlands, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.379600, -67.188400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Aguada, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.379600, -67.188400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Aguada, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.379600, -67.188400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Aguada, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.379600, -67.188400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Aguada, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.444700, -122.160800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Palo Alto, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.290600, -76.609600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Baltimore, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.764500, -73.974500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.014800, 28.961400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Istanbul, Turkey",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.952200, -75.193200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Philadelphia, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.737500, -84.483800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East Lansing, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.737500, -84.483800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East Lansing, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.737500, -84.483800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"East Lansing, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.443300, -91.187000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baton Rouge, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.443300, -91.187000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baton Rouge, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.031800, -93.336500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Robbinsdale, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.657800, -91.526500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Iowa City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.312100, -72.928300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New Haven, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.056500, -87.675300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Evanston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.882900, -117.929100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Fullerton, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.025300, -93.620200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Ames, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.788100, -90.497500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"St. Charles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505800, 13.331700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"West Berlin, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516700, 13.400000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"East Berlin, East Germany (GDR)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.443300, -91.187000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baton Rouge, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.290200, -71.049000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(18.399700, -66.050000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Rio Piedras, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.640400, -86.861600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Greencastle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.316300, -72.922300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New Haven, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.844800, -73.864800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.860600, -73.898900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.114200, -88.243500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.114200, -88.243500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Champaign, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-25.282800, -57.635600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Asuncion, Paraguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.645000, -79.183100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Jennings, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.904900, -79.046900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Chapel Hill, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.220800, -97.446600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Norman, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.347500, -94.872900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Maryville, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516700, 13.400000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"East Berlin, East Germany (GDR)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(46.405000, -117.009300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Lewiston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(25.720900, -80.277900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Coral Gables, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.538200, -81.377400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Orlando, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.678200, -73.944200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(46.143600, -122.925600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Longview, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.336600, -75.927800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Reading, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.511800, -122.675600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Portland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.737900, -118.284700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"San Pedro, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.511800, -122.675600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Portland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301600, -71.067600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.356400, -72.096500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New London, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.819000, -73.595700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.092800, -118.328700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.551300, -121.471100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Sacramento, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.516700, 13.400000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"East Berlin, East Germany (GDR)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.890400, -77.032000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Washington, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(46.198400, 6.142300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Geneva, Switzerland",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(29.760500, -95.369800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Houston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.331700, -83.047900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Detroit, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.589800, -93.615700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Des Moines, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.759500, -111.888200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Salt Lake City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(36.312000, -78.588200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oxford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(25.800300, -80.226600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Miami, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.457200, -71.064000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Melrose, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.807500, -73.962600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.783800, -118.114100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Long Beach, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(36.312000, -78.588200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oxford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505800, 13.331700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"West Berlin, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.891200, -56.187200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Montevideo, Uruguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505800, 13.331700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"West Berlin, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.603600, -122.329400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Seattle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712800, -74.005900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.550200, -90.332700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Afton, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.588100, -84.580900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Quincy, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.201200, -77.189200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Carlisle, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(25.764400, -80.201500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Miami, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.766300, -117.370700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Trona, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712800, -74.005900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unarmed Assault"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(44.946600, -93.136400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"St. Paul, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.025300, -93.620200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Ames, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(36.312000, -78.588200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oxford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(36.312000, -78.588200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oxford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(36.312000, -78.588200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Oxford, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.245300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301600, -71.067600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301600, -71.067600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Boston, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.579100, -121.491000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Sacramento, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.448300, -112.075800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Phoenix, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.762700, -73.955900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.882900, -117.929100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Fullerton, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.603700, -58.381500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Buenos Aires, Argentina",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.891200, -56.187200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Montevideo, Uruguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(32.715700, -117.161700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"San Diego, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712600, -74.013400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(11.586600, 122.753700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Roxas, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(30.443300, -91.187000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Baton Rouge, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.524900, -88.084600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Joliet, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.511800, -122.675600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Portland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.068900, -118.445200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(14.677300, 121.044300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Quezon City, Philippines",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505800, 13.331700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"West Berlin, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.505800, 13.331700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"West Berlin, West Germany (FRG)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.783100, -73.971200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.869900, -122.270500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Berkeley, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unknown"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.963100, -118.232600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Los Angeles, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.884200, -87.632400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Chicago, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.805100, -122.273000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Oakland, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(10.063500, -69.334700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Barquisimeto, Venezuela",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.696400, 51.423000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Tehran, Iran",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.712800, -74.005900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"New York City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Barricade Incident)"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Barricade Incident)"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.946900, -90.364700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Facility/Infrastructure Attack"
+ +"1970.0"
+ +"Galesburg, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(40.732000, -74.174200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Newark, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(31.950000, 35.933300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Assassination"
+ +"1970.0"
+ +"Amman, Jordan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-22.908300, -43.197000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Hostage Taking (Kidnapping)"
+ +"1970.0"
+ +"Rio de Janeiro, Brazil",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.696400, 51.423000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Tehran, Iran",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.260700, -95.940500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Omaha, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(-34.891200, -56.187200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Unknown"
+ +"1970.0"
+ +"Montevideo, Uruguay",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.005300, -89.176200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Cairo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.005100, -89.176300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Armed Assault"
+ +"1970.0"
+ +"Cairo, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.589800, -93.615700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Des Moines, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(39.103000, -94.583100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "Bombing/Explosion"
+ +"1970.0"
+ +"Kansas City, United States",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
